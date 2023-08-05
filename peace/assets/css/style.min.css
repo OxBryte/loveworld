@@ -1640,12 +1640,16 @@ ul {
 }
 
 .header__bottom {
-    background: #f1c152
+    background: #0d0d0d;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media(min-width: 1200px) {
     .header__bottom {
-        background: #0d0d0d
+        background: #0d0d0d;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -1658,6 +1662,9 @@ ul {
 }
 
 .header__bottom-fiexd .header__mainmenu {
+    justify-content: space-between
+}
+.header__bottom .header__mainmenu {
     justify-content: space-between
 }
 
